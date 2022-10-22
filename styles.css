@@ -1,3 +1,78 @@
+/*Common CSS*/
 * {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.header,
+.body-1,
+.footer {
+    background-color: #1F2937;
+}
+
+.header-left,
+.body-3 .name {
+    font-size: 24px;
+}
+
+h2,
+.body-3 .name {
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+h1,
+.header-left {
+    color: #F9FAF8;
+}
+
+
+/*Header CSS*/
+
+.header-right {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+
+/*body-1*/
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+/*body-2*/
+
+h2 {
+    font-size: 36px;
+}
+
+/*body-3*/
+
+.body-3 {
+    background-color: #E5E7EB;
+}
+
+.body-3 .text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+
+.body-2 .text{
+    color: #1F2937;
+}
+
+
+/*body-4*/
+.body-4-box {
+    background-color: 
+    #3882F6;
 }
