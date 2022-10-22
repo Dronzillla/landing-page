@@ -3,6 +3,19 @@
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+/*Margins*/
+body,
+h1,
+h2,
+h3 {
+    margin:0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
 /*Dark background*/
 .header,
 .body-1,
@@ -86,8 +99,103 @@ button {
     font-weight: bold;
 }
 
-/*lists*/
+/*header - specific*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 250px;
+}
+
 ul {
     list-style-type: none;
     padding: 0px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/*body-1 specific*/
+.body-1 {
+    display: flex;
+    padding: 50px 250px 70px;
+}
+
+.body-1-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.body-1-right {
+    flex: 1;
+}
+
+/*body-2 specific*/
+.body-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 50px;
+}
+
+.body-2-items{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
+
+.body-2-item{
+    width: 180px;
+    height: 230px;
+}
+
+/*body-3 specific*/
+.body-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 450px;
+    gap: 10px;
+}
+
+.quote-name {
+    text-align: right;
+}
+
+/*body-4 specific*/
+.body-4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.body-4-box {
+    display: flex;
+    height: 100px;
+    width: 900px;
+}
+
+.body-4-box-left {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.body-4-box-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*footer specific */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
 }
