@@ -1,78 +1,93 @@
-/*Common CSS*/
+/*All*/
 * {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+/*Dark background*/
 .header,
 .body-1,
 .footer {
     background-color: #1F2937;
 }
 
-.header-left,
-.body-3 .name {
-    font-size: 24px;
+/*Light blue background*/
+.body-4-box,
+button {
+    background-color: 
+    #3882F6;
 }
 
-h2,
-.body-3 .name {
-    color: #1F2937;
-    font-weight: bolder;
-}
-
-h1,
-.header-left {
-    color: #F9FAF8;
-}
-
-
-/*Header CSS*/
-
-.header-right {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0px;
-}
-
-
-/*body-1*/
-
-h1 {
-    font-size: 48px;
-    font-weight: bolder;
-}
-
-
-/*body-2*/
-
-h2 {
-    font-size: 36px;
-}
-
-/*body-3*/
-
+/*Grey background*/
 .body-3 {
     background-color: #E5E7EB;
 }
 
-.body-3 .text {
+/*font-size: 18px*/
+.header-right,
+.text,
+.body-2-text,
+button,
+footer {
+    font-size: 18px;
+}
+
+/*font-size: 24px*/
+h3,
+.header-left,
+.body-3 .quote-name {
+    font-size: 24px;
+}
+
+/*font size: 36px*/
+h2,
+.quote {
     font-size: 36px;
+}
+
+/*font size: 48px*/
+h1 {
+    font-size: 48px;
+}
+
+/*font color #1F2937 (dark blue)*/
+h2,
+.quote-name,
+.quote,
+.body-2-text {
     color: #1F2937;
+}
+
+/*font color #F9FAF8 (white);*/
+h1,
+h3,
+.header-left {
+    color: #F9FAF8;
+}
+
+/*font color #E5E7EB (other white);*/
+.header-right,
+.text,
+button,
+footer {
+    color: #E5E7EB;
+}
+
+/*italic*/
+.quote {
     font-style: italic;
 }
 
-
-.body-2 .text{
-    color: #1F2937;
+/*bold*/
+h1,
+h3,
+.header-left,
+.quote-name,
+button {
+    font-weight: bold;
 }
 
-
-/*body-4*/
-.body-4-box {
-    background-color: 
-    #3882F6;
+/*lists*/
+ul {
+    list-style-type: none;
+    padding: 0px;
 }
